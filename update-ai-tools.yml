@@ -1,27 +1,44 @@
-name: Daily AI Tools Update
+name: Daily AI Tools Update & Merge
+
 on:
   schedule:
-    - cron: '0 4 * * *' # Runs at 4 AM UTC daily
-  workflow_dispatch:
+    - cron: '0 4 * * *'           # Every day at 04:00 UTC ≈ 09:00 PKT
+  workflow_dispatch:              # Allows manual trigger
 
 jobs:
-  update:
+  update-and-commit:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install dependencies
-        run: pip install requests
-      - name: Run Scraper
-        run: python update_ai_tools.py
-      - name: Commit and Push
+
+      - name: Install Python dependencies
         run: |
-          git config --global user.name "AI Update Bot"
-          git config --global user.email "bot@github.com"
+          python -m pip install --upgrade pip
+          pip install requests crawlee[playwright]
+
+      - name: Install Playwright browsers
+        run: playwright install --with-deps chromium
+
+      - name: Run AI tools update script
+        run: python update_ai_tools.py
+
+      - name: Commit updated ai-tools.json
+        run: |
+          git config --global user.name "AI Tools Bot"
+          git config --global user.email "actions@github.com"
           git add ai-tools.json
-          git commit -m "chore: automated daily update $(date +'%Y-%m-%d')" || exit 0
+          git commit -m "chore: daily auto-update of AI tools directory $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
+
+      - name: Show git status (debug)
+        if: always()
+        run: git status

@@ -1,0 +1,32 @@
+name: Daily AI Tools Update (2026 Agents & Generative)
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # Daily at 4 AM UTC (about 9 AM PKT in Lahore)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests crawlee
+
+      - name: Run update script
+        run: python update_ai_tools.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "AI Tools Bot"
+          git config --global user.email "bot@users.noreply.github.com"
+          git add ai-tools.json
+          git commit -m "chore: daily update for 2026 AI tools (agents & generative) $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push

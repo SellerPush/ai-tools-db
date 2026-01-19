@@ -1,0 +1,873 @@
+[
+  {
+    "tool": "openai/gpt-oss-20b",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "gpt_oss",
+      "text-generation",
+      "vllm"
+    ],
+    "description": "Hugging Face model: openai/gpt-oss-20b",
+    "score": 9.7,
+    "url": "https://huggingface.co/openai/gpt-oss-20b",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 1
+  },
+  {
+    "tool": "openai/clip-vit-large-patch14",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "safetensors"
+    ],
+    "description": "Hugging Face model: openai/clip-vit-large-patch14",
+    "score": 9.6,
+    "url": "https://huggingface.co/openai/clip-vit-large-patch14",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 2
+  },
+  {
+    "tool": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "jax",
+      "wav2vec2",
+      "automatic-speech-recognition"
+    ],
+    "description": "Hugging Face model: jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+    "score": 9.5,
+    "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 3
+  },
+  {
+    "tool": "openai-community/gpt2",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "tflite"
+    ],
+    "description": "Hugging Face model: openai-community/gpt2",
+    "score": 9.4,
+    "url": "https://huggingface.co/openai-community/gpt2",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 4
+  },
+  {
+    "tool": "facebook/contriever",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "bert",
+      "arxiv:2112.09118",
+      "endpoints_compatible"
+    ],
+    "description": "Hugging Face model: facebook/contriever",
+    "score": 9.3,
+    "url": "https://huggingface.co/facebook/contriever",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 5
+  },
+  {
+    "tool": "omni-research/Tarsier2-Recap-7b",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "safetensors",
+      "video LLM",
+      "arxiv:2501.07888",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "description": "Hugging Face model: omni-research/Tarsier2-Recap-7b",
+    "score": 9.2,
+    "url": "https://huggingface.co/omni-research/Tarsier2-Recap-7b",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 6
+  },
+  {
+    "tool": "Qwen/Qwen3-0.6B",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "description": "Hugging Face model: Qwen/Qwen3-0.6B",
+    "score": 9.1,
+    "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 7
+  },
+  {
+    "tool": "BAAI/bge-m3",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "sentence-transformers",
+      "pytorch",
+      "onnx",
+      "xlm-roberta",
+      "feature-extraction"
+    ],
+    "description": "Hugging Face model: BAAI/bge-m3",
+    "score": 9.0,
+    "url": "https://huggingface.co/BAAI/bge-m3",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 8
+  },
+  {
+    "tool": "autogluon/chronos-bolt-small",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "safetensors",
+      "t5",
+      "time series",
+      "forecasting",
+      "pretrained models"
+    ],
+    "description": "Hugging Face model: autogluon/chronos-bolt-small",
+    "score": 8.9,
+    "url": "https://huggingface.co/autogluon/chronos-bolt-small",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 9
+  },
+  {
+    "tool": "FacebookAI/roberta-base",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "rust"
+    ],
+    "description": "Hugging Face model: FacebookAI/roberta-base",
+    "score": 8.8,
+    "url": "https://huggingface.co/FacebookAI/roberta-base",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 10
+  },
+  {
+    "tool": "meta-llama/Llama-3.1-8B-Instruct",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "facebook"
+    ],
+    "description": "Hugging Face model: meta-llama/Llama-3.1-8B-Instruct",
+    "score": 8.7,
+    "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 11
+  },
+  {
+    "tool": "Bingsu/adetailer",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "ultralytics",
+      "pytorch",
+      "dataset:wider_face",
+      "dataset:skytnt/anime-segmentation",
+      "doi:10.57967/hf/3633"
+    ],
+    "description": "Hugging Face model: Bingsu/adetailer",
+    "score": 8.6,
+    "url": "https://huggingface.co/Bingsu/adetailer",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 12
+  },
+  {
+    "tool": "meta-llama/Llama-2-7b-chat-hf",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "facebook"
+    ],
+    "description": "Hugging Face model: meta-llama/Llama-2-7b-chat-hf",
+    "score": 8.6,
+    "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 13
+  },
+  {
+    "tool": "pyannote/speaker-diarization-3.1",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "pyannote-audio",
+      "pyannote",
+      "pyannote-audio-pipeline",
+      "audio",
+      "voice"
+    ],
+    "description": "Hugging Face model: pyannote/speaker-diarization-3.1",
+    "score": 8.5,
+    "url": "https://huggingface.co/pyannote/speaker-diarization-3.1",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 14
+  },
+  {
+    "tool": "deepseek-ai/DeepSeek-R1",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "deepseek_v3",
+      "text-generation"
+    ],
+    "description": "Hugging Face model: deepseek-ai/DeepSeek-R1",
+    "score": 8.5,
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 15
+  },
+  {
+    "tool": "pyannote/wespeaker-voxceleb-resnet34-LM",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "pyannote-audio",
+      "pytorch",
+      "pyannote",
+      "pyannote-audio-model",
+      "wespeaker"
+    ],
+    "description": "Hugging Face model: pyannote/wespeaker-voxceleb-resnet34-LM",
+    "score": 8.4,
+    "url": "https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 16
+  },
+  {
+    "tool": "google/embeddinggemma-300m",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "sentence-transformers",
+      "safetensors",
+      "gemma3_text",
+      "sentence-similarity",
+      "feature-extraction"
+    ],
+    "description": "Hugging Face model: google/embeddinggemma-300m",
+    "score": 8.4,
+    "url": "https://huggingface.co/google/embeddinggemma-300m",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 17
+  },
+  {
+    "tool": "pyannote/segmentation-3.0",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "pyannote-audio",
+      "pytorch",
+      "pyannote",
+      "pyannote-audio-model",
+      "audio"
+    ],
+    "description": "Hugging Face model: pyannote/segmentation-3.0",
+    "score": 8.3,
+    "url": "https://huggingface.co/pyannote/segmentation-3.0",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 18
+  },
+  {
+    "tool": "Systran/faster-whisper-large-v3",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "ctranslate2",
+      "audio",
+      "automatic-speech-recognition",
+      "license:mit",
+      "region:us"
+    ],
+    "description": "Hugging Face model: Systran/faster-whisper-large-v3",
+    "score": 8.3,
+    "url": "https://huggingface.co/Systran/faster-whisper-large-v3",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 19
+  },
+  {
+    "tool": "Qwen/Qwen2.5-3B-Instruct",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "chat"
+    ],
+    "description": "Hugging Face model: Qwen/Qwen2.5-3B-Instruct",
+    "score": 8.2,
+    "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 20
+  },
+  {
+    "tool": "kredor/punctuate-all",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "xlm-roberta",
+      "token-classification",
+      "endpoints_compatible"
+    ],
+    "description": "Hugging Face model: kredor/punctuate-all",
+    "score": 8.2,
+    "url": "https://huggingface.co/kredor/punctuate-all",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 21
+  },
+  {
+    "tool": "laion/clap-htsat-fused",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "clap",
+      "feature-extraction"
+    ],
+    "description": "Hugging Face model: laion/clap-htsat-fused",
+    "score": 8.1,
+    "url": "https://huggingface.co/laion/clap-htsat-fused",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 22
+  },
+  {
+    "tool": "studio-ousia/luke-large-finetuned-tacred",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "luke",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "description": "Hugging Face model: studio-ousia/luke-large-finetuned-tacred",
+    "score": 8.1,
+    "url": "https://huggingface.co/studio-ousia/luke-large-finetuned-tacred",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 23
+  },
+  {
+    "tool": "openai/clip-vit-base-patch32",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "clip"
+    ],
+    "description": "Hugging Face model: openai/clip-vit-base-patch32",
+    "score": 8.0,
+    "url": "https://huggingface.co/openai/clip-vit-base-patch32",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 24
+  },
+  {
+    "tool": "LiheYoung/depth-anything-large-hf",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "depth-estimation",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "description": "Hugging Face model: LiheYoung/depth-anything-large-hf",
+    "score": 8.0,
+    "url": "https://huggingface.co/LiheYoung/depth-anything-large-hf",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 25
+  },
+  {
+    "tool": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "onnx",
+      "safetensors"
+    ],
+    "description": "Hugging Face model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "score": 7.9,
+    "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 26
+  },
+  {
+    "tool": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "xlm-roberta",
+      "text-classification"
+    ],
+    "description": "Hugging Face model: cardiffnlp/twitter-xlm-roberta-base-sentiment",
+    "score": 7.9,
+    "url": "https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 27
+  },
+  {
+    "tool": "colbert-ir/colbertv2.0",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "bert"
+    ],
+    "description": "Hugging Face model: colbert-ir/colbertv2.0",
+    "score": 7.8,
+    "url": "https://huggingface.co/colbert-ir/colbertv2.0",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 28
+  },
+  {
+    "tool": "WhereIsAI/UAE-Large-V1",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "sentence-transformers",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "bert"
+    ],
+    "description": "Hugging Face model: WhereIsAI/UAE-Large-V1",
+    "score": 7.8,
+    "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 29
+  },
+  {
+    "tool": "timm/mobilenetv3_small_100.lamb_in1k",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "timm",
+      "pytorch",
+      "safetensors",
+      "image-classification",
+      "transformers"
+    ],
+    "description": "Hugging Face model: timm/mobilenetv3_small_100.lamb_in1k",
+    "score": 7.7,
+    "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 30
+  },
+  {
+    "tool": "Salesforce/blip-image-captioning-large",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "safetensors",
+      "blip"
+    ],
+    "description": "Hugging Face model: Salesforce/blip-image-captioning-large",
+    "score": 7.7,
+    "url": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 31
+  },
+  {
+    "tool": "sentence-transformers/all-mpnet-base-v2",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "sentence-transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "openvino"
+    ],
+    "description": "Hugging Face model: sentence-transformers/all-mpnet-base-v2",
+    "score": 7.6,
+    "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 32
+  },
+  {
+    "tool": "mixedbread-ai/mxbai-rerank-xsmall-v1",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "deberta-v2",
+      "text-classification"
+    ],
+    "description": "Hugging Face model: mixedbread-ai/mxbai-rerank-xsmall-v1",
+    "score": 7.6,
+    "url": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 33
+  },
+  {
+    "tool": "FacebookAI/roberta-large",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "onnx"
+    ],
+    "description": "Hugging Face model: FacebookAI/roberta-large",
+    "score": 7.5,
+    "url": "https://huggingface.co/FacebookAI/roberta-large",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 34
+  },
+  {
+    "tool": "ibm-granite/granite-embedding-small-english-r2",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "sentence-transformers",
+      "pytorch",
+      "safetensors",
+      "modernbert",
+      "feature-extraction"
+    ],
+    "description": "Hugging Face model: ibm-granite/granite-embedding-small-english-r2",
+    "score": 7.5,
+    "url": "https://huggingface.co/ibm-granite/granite-embedding-small-english-r2",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 35
+  },
+  {
+    "tool": "google-bert/bert-base-uncased",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "rust"
+    ],
+    "description": "Hugging Face model: google-bert/bert-base-uncased",
+    "score": 7.4,
+    "url": "https://huggingface.co/google-bert/bert-base-uncased",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 36
+  },
+  {
+    "tool": "microsoft/Phi-3-mini-4k-instruct",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "phi3",
+      "text-generation",
+      "nlp"
+    ],
+    "description": "Hugging Face model: microsoft/Phi-3-mini-4k-instruct",
+    "score": 7.4,
+    "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 37
+  },
+  {
+    "tool": "dima806/fairface_age_image_detection",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "vit",
+      "image-classification",
+      "dataset:nateraw/fairface"
+    ],
+    "description": "Hugging Face model: dima806/fairface_age_image_detection",
+    "score": 7.3,
+    "url": "https://huggingface.co/dima806/fairface_age_image_detection",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 38
+  },
+  {
+    "tool": "KBLab/wav2vec2-large-voxrex-swedish",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition"
+    ],
+    "description": "Hugging Face model: KBLab/wav2vec2-large-voxrex-swedish",
+    "score": 7.3,
+    "url": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 39
+  },
+  {
+    "tool": "google/electra-base-discriminator",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "rust"
+    ],
+    "description": "Hugging Face model: google/electra-base-discriminator",
+    "score": 7.2,
+    "url": "https://huggingface.co/google/electra-base-discriminator",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 40
+  },
+  {
+    "tool": "nvidia/bigvgan_v2_22khz_80band_256x",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "PyTorch",
+      "neural-vocoder",
+      "audio-generation",
+      "audio-to-audio",
+      "arxiv:2206.04658"
+    ],
+    "description": "Hugging Face model: nvidia/bigvgan_v2_22khz_80band_256x",
+    "score": 7.2,
+    "url": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 41
+  },
+  {
+    "tool": "Falconsai/nsfw_image_detection",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "vit",
+      "image-classification"
+    ],
+    "description": "Hugging Face model: Falconsai/nsfw_image_detection",
+    "score": 7.1,
+    "url": "https://huggingface.co/Falconsai/nsfw_image_detection",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 42
+  },
+  {
+    "tool": "google/gemma-3-12b-it",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-to-text",
+      "image-text-to-text"
+    ],
+    "description": "Hugging Face model: google/gemma-3-12b-it",
+    "score": 7.1,
+    "url": "https://huggingface.co/google/gemma-3-12b-it",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 43
+  },
+  {
+    "tool": "Tendem",
+    "url": "https://theresanaiforthat.com/ai/tendem/",
+    "description": "AI + Human Agent to get tasks done",
+    "category": "Task automation",
+    "keywords": [
+      "task automation",
+      "human agent",
+      "AI"
+    ],
+    "score": 7.0,
+    "source": "TAAFT Trending",
+    "lastUpdated": "2026-01-19",
+    "rank": 44
+  },
+  {
+    "tool": "Nebius Token Factory v1.1",
+    "url": "https://theresanaiforthat.com/ai/nebius-token-factory/",
+    "description": "Enterprise-grade open-source AI inference at unlimited scale.",
+    "category": "AI inference",
+    "keywords": [
+      "AI inference",
+      "open-source",
+      "enterprise"
+    ],
+    "score": 7.0,
+    "source": "TAAFT Trending",
+    "lastUpdated": "2026-01-19",
+    "rank": 45
+  },
+  {
+    "tool": "PRBot.ai",
+    "url": "https://theresanaiforthat.com/ai/prbot/",
+    "description": "AI agents pitch journalists for top-tier press coverage.",
+    "category": "Public Relations",
+    "keywords": [
+      "public relations",
+      "AI agents",
+      "press coverage"
+    ],
+    "score": 7.0,
+    "source": "TAAFT Trending",
+    "lastUpdated": "2026-01-19",
+    "rank": 46
+  },
+  {
+    "tool": "Baseqore AI Contract Generator",
+    "url": "https://theresanaiforthat.com/ai/baseqore-ai-contract-generator/",
+    "description": "Generate high-converting legal contracts in seconds.",
+    "category": "Contracts",
+    "keywords": [
+      "contracts",
+      "legal",
+      "AI generation"
+    ],
+    "score": 7.0,
+    "source": "TAAFT Trending",
+    "lastUpdated": "2026-01-19",
+    "rank": 47
+  },
+  {
+    "tool": "FastRouter",
+    "url": "https://theresanaiforthat.com/ai/fastrouter/",
+    "description": "Lightning Fast LLM Gateway",
+    "category": "LLM Comparison",
+    "keywords": [
+      "LLM",
+      "gateway",
+      "AI"
+    ],
+    "score": 7.0,
+    "source": "TAAFT Trending",
+    "lastUpdated": "2026-01-19",
+    "rank": 48
+  },
+  {
+    "tool": "Sous | AI Recipe Generator & Kitchen Assistant",
+    "url": "https://theresanaiforthat.com/ai/sous-ai-recipe-generator/",
+    "description": "All-in-one AI kitchen assistant: pantry management, recipe generation, meal planning, shopping lists",
+    "category": "Recipes",
+    "keywords": [
+      "recipes",
+      "kitchen assistant",
+      "AI"
+    ],
+    "score": 7.0,
+    "source": "TAAFT Trending",
+    "lastUpdated": "2026-01-19",
+    "rank": 49
+  },
+  {
+    "tool": "sentence-transformers/all-MiniLM-L6-v2",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "rust",
+      "onnx"
+    ],
+    "description": "Hugging Face model: sentence-transformers/all-MiniLM-L6-v2",
+    "score": 7.0,
+    "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 50
+  },
+  {
+    "tool": "openai/whisper-large-v3",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition"
+    ],
+    "description": "Hugging Face model: openai/whisper-large-v3",
+    "score": 7.0,
+    "url": "https://huggingface.co/openai/whisper-large-v3",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 51
+  },
+  {
+    "tool": "Alibaba-NLP/gte-multilingual-base",
+    "category": "Open LLM (HF)",
+    "keywords": [
+      "sentence-transformers",
+      "safetensors",
+      "new",
+      "feature-extraction",
+      "mteb"
+    ],
+    "description": "Hugging Face model: Alibaba-NLP/gte-multilingual-base",
+    "score": 7.0,
+    "url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base",
+    "source": "Hugging Face",
+    "lastUpdated": "2026-01-19",
+    "rank": 52
+  }
+]

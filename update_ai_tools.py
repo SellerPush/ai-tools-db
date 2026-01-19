@@ -1,95 +1,44 @@
-# update_ai_tools.py
 import json
 import requests
 from datetime import datetime
-from bs4 import BeautifulSoup  # pip install beautifulsoup4 requests
+import os
 
-# ── CONFIG ───────────────────────────────────────────────────────────────
+# Configuration
 MASTER_FILE = "ai-tools.json"
 SOURCES = {
-    "toolify": {
-        "url": "https://www.toolify.ai/best-ai-tools",
-        "method": "scrape",  # or "api"
-        "category_map": {"LLM Platform": "Chatbot", ...}
-    },
-    "futurepedia": {
-        "url": "https://www.futurepedia.io/api/tools?limit=50&sort=popular",
-        "method": "api"
-    },
-    # Add more...
+    "toolify": "https://www.toolify.ai/api/best-ai-tools", # Example API endpoint
+    "futurepedia": "https://www.futurepedia.io/api/tools?limit=50&sort=popular",
+    "huggingface": "https://huggingface.co/api/models?pipeline_tag=text-generation&sort=downloads"
 }
 
 def load_existing():
-    try:
-        with open(MASTER_FILE, 'r') as f:
-            return json.load(f)
-    except:
-        return []
+    if os.path.exists(MASTER_FILE):
+        with open(MASTER_FILE, 'r') as f: return json.load(f)
+    return []
 
-def save_tools(tools):
+def scrape_new_discoveries():
+    # Placeholder for actual API/Scraping logic for tools like zchat.ai, 365 AI, etc.
+    new_tools = [
+        {"tool": "zchat.ai", "category": "AI Search / RAG", "url": "https://zchat.ai", "description": "AI-powered real-time search and chat platform.", "score": 8.5},
+        {"tool": "365 AI", "category": "General Assistant", "url": "https://www.365ai.com", "description": "Versatile productivity AI for the Chinese market.", "score": 8.2},
+        {"tool": "Llama 3 (Meta)", "category": "Open LLM", "url": "https://ai.meta.com/llama/", "description": "Meta's state-of-the-art open source large language model.", "score": 9.5}
+    ]
+    return new_tools
+
+def update_directory():
+    existing = load_existing()
+    existing_dict = {t["tool"].lower(): t for t in existing}
+    
+    # Merge new tools
+    for tool in scrape_new_discoveries():
+        key = tool["tool"].lower()
+        tool["lastUpdated"] = datetime.utcnow().strftime('%Y-%m-%d')
+        existing_dict[key] = tool # This updates existing or adds new
+
+    # Sort by score and save
+    updated_list = sorted(existing_dict.values(), key=lambda x: x.get('score', 0), reverse=True)
     with open(MASTER_FILE, 'w') as f:
-        json.dump(tools, f, indent=2)
+        json.dump(updated_list, f, indent=2)
 
-def fetch_toolify():
-    # Example: simple scrape (respect robots.txt!)
-    headers = {'User-Agent': 'AI-Tools-Curator/1.0 (your.email@example.com)'}
-    resp = requests.get("https://www.toolify.ai/best-ai-tools", headers=headers)
-    soup = BeautifulSoup(resp.text, 'html.parser')
-
-    tools = []
-    for item in soup.select('.tool-card'):  # Adjust selector after inspecting page
-        name = item.select_one('.tool-name').text.strip()
-        url = item.select_one('a')['href']
-        desc = item.select_one('.tool-desc').text.strip()
-        tools.append({
-            "tool": name,
-            "url": f"https://www.toolify.ai{url}",
-            "description": desc,
-            "source": "toolify",
-            "lastUpdated": datetime.utcnow().isoformat()
-        })
-    return tools[:30]  # top 30
-
-def fetch_futurepedia():
-    try:
-        resp = requests.get(SOURCES["futurepedia"]["url"])
-        data = resp.json()
-        return [{
-            "tool": item["name"],
-            "url": item["url"],
-            "description": item.get("description", ""),
-            "source": "futurepedia",
-            "lastUpdated": datetime.utcnow().isoformat()
-        } for item in data.get("tools", [])[:30]]
-    except:
-        return []
-
-# ── MAIN ─────────────────────────────────────────────────────────────────
-existing = load_existing()
-existing_dict = {t["tool"].lower(): t for t in existing}
-
-new_tools = []
-new_tools.extend(fetch_toolify())
-new_tools.extend(fetch_futurepedia())
-# Add more fetchers...
-
-# Merge: update existing, add new ones
-for tool in new_tools:
-    key = tool["tool"].lower()
-    if key in existing_dict:
-        # Update fields
-        existing_dict[key].update(tool)
-    else:
-        existing_dict[key] = tool
-
-# Re-sort by score or rank (you can add logic here)
-updated_list = list(existing_dict.values())
-updated_list.sort(key=lambda x: x.get("score", 0), reverse=True)
-
-# Re-assign ranks
-for i, tool in enumerate(updated_list, 1):
-    tool["rank"] = i
-
-save_tools(updated_list)
-
-print(f"Updated {len(updated_list)} tools → {MASTER_FILE}")
+if __name__ == "__main__":
+    update_directory()
